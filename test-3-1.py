@@ -7,6 +7,7 @@ def fib(max):
         a, b = b, a + b
         n = n + 1
 
-print fib(6).next()
-#for i in fib(6):
-#    print i
+for i in fib(6):
+    print i
+
+# for l in range(dd):
